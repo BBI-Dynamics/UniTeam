@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.UniTeam" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/uniteam_teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/uniteam_green_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimaryContainer">#CDEEEE</item>
+        <item name="colorOnPrimaryContainer">#003737</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.UniTeam" parent="Base.Theme.UniTeam" />
+
+    <style name="ShapeAppearance.UniTeam.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

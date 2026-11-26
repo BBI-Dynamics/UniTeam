@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta tomada del logo y de tu diseño original -->
+    <color name="uniteam_teal">#008080</color>
+    <color name="uniteam_blue">#027482</color>
+    <color name="uniteam_green_dark">#06612B</color>
+    <color name="uniteam_green_title">#006837</color>
+    <color name="uniteam_green_light">#3DDC84</color>
+    <color name="uniteam_gray">#49494A</color>
+    <color name="uniteam_text_secondary">#64748B</color>
+    <color name="uniteam_text_primary">#1E293B</color>
+    <color name="uniteam_bg_top">#EAFBF1</color>
+    <color name="uniteam_bg_bottom">#C9F2D9</color>
+</resources>

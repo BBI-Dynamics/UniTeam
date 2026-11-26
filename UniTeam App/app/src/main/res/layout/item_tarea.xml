@@ -1,0 +1,93 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="3dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTareaTitulo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/uniteam_green_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Proyecto Final" />
+
+            <TextView
+                android:id="@+id/tvTareaImportancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:paddingStart="10dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="3dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:background="#D32F2F"
+                tools:text="Alta" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTareaMateria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/uniteam_blue"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Materia: Programación Móvil" />
+
+        <TextView
+            android:id="@+id/tvTareaDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/uniteam_text_primary"
+            android:textSize="14sp"
+            tools:text="Terminar la interfaz de tareas en Android Studio." />
+
+        <TextView
+            android:id="@+id/tvTareaCreador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/uniteam_text_secondary"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:text="Creada por: Juan Pérez (juan@correo.com)" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTareaAccion"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Marcar como completada"
+            android:textAllCaps="false"
+            android:textColor="@color/uniteam_teal"
+            app:cornerRadius="15dp"
+            app:strokeColor="@color/uniteam_teal" />
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
